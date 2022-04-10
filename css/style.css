@@ -1,0 +1,52 @@
+body {
+    background-color: #fafafa;
+}
+
+img {
+    width: 280px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: calc(100vh - 200px);
+}
+
+span {
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    height: 54px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #59B027;
+    cursor: pointer;
+    margin: 200px auto 0 auto;
+    color: white;
+}
+
+.entrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    font-size: 150px;
+    cursor: pointer;
+}
+
+.bloqueado {
+    display: none;
+}
+
+.txt{
+    font-size: 23px;
+    font-weight: bold;
+}
